@@ -49,12 +49,14 @@ link_libraries(
 set(SOURCES
 	main.c
 	lg-renderer.c
+	lg-decoders.c
 	ll.c
 	spice/rsa.c
 	spice/spice.c
 	decoders/null.c
 	decoders/yuv420.c
 	renderers/opengl.c
+	renderers/stdout.c
 )
 
 add_executable(looking-glass-client ${SOURCES})

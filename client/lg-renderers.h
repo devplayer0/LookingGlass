@@ -22,11 +22,13 @@ Place, Suite 330, Boston, MA 02111-1307 USA
 
 extern const LG_Renderer LGR_OpenGL;
 //extern const LG_Renderer LGR_OpenGLBasic;
+extern const LG_Renderer LGR_stdout;
 
 const LG_Renderer * LG_Renderers[] =
 {
   &LGR_OpenGL,
 //  &LGR_OpenGLBasic,
+  &LGR_stdout,
   NULL // end of array sentinal
 };
 
